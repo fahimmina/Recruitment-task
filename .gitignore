@@ -1,0 +1,33 @@
+# ROS 2 Workspace Build Directories
+build/
+install/
+log/
+
+# Python Cache and Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment and Virtualenv
+.env
+.venv/
+venv/
+ENV/
+
+# Colcon specific
+COLCON_IGNORE
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Docker (if you are testing local builds before containerizing)
+.dockerignore
