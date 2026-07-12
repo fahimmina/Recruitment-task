@@ -28,7 +28,7 @@ Students who successfully implement Simultaneous Localization and Mapping (SLAM)
 To begin the assignment, launch the provided bringup script. This single command will spin up the custom world, spawn the TurtleBot4 (lite model) at the designated starting coordinates, and start the WebSocket broadcasting server.
 
 ```bash
-ros2 launch assignment_bringup main_assignment.launch.py
+ros2 launch questions main_assignment.launch.py
 ```
 Ensure your custom navigation and vision nodes are launched separately after the Gazebo environment and base ROS 2 nodes are fully initialized.
 4. Submission Guidelines
