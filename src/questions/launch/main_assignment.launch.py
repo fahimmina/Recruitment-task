@@ -33,10 +33,10 @@ def generate_launch_description():
         launch_arguments={
             'world': 'level3',  
             'model': 'lite',
-            'x': '-5.0',
+            'x': '0.0',
             'y': '0.0',
-            'z': '0.05',
-            'yaw': '3.14159',
+            'z': '0.0',
+            'yaw': '0.0',
             'spawn_dock': 'false'
         }.items()
     )
