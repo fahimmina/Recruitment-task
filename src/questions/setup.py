@@ -28,7 +28,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'websocket_broadcaster = questions.websocket_broadcaster:main'
+            'websocket_broadcaster = questions.websocket_broadcaster:main',
+            'waypoint_client = questions.waypoint_client:main'
         ],
     },
 )
